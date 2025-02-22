@@ -1,0 +1,224 @@
+@media(max-width: 900px) {
+
+/* ----------------Home-------- */
+
+.hero-section{
+  flex-direction: column;
+  margin-top: 40px;
+
+}
+
+.hero-section .heroDiv{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.hero-section .heroImg{
+  width: 80%;
+}
+
+/* ---------steps container----- */
+
+.steps-container{
+  justify-content: center;
+}
+
+/* -----------Doctor----- */
+
+.doctor_sec{
+  flex-direction: column;
+}
+
+.doctor_sec .doctor_img{
+  width: 80%;
+}
+
+.doctor_sec .doctor_txt{
+  width: 90%;
+  margin-top: 30px;
+}
+
+/* ---------service--- */
+
+.serviceContainer{
+  flex-direction: column;
+}
+
+.serviceContainer .serviceBox{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.serviceContainer .serviceBox:nth-child(2) {
+  padding-bottom: 50px;
+}
+
+.callToActionBox{
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.callToActionBox img{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.callToActionBox h1{
+  font-size: 1.3rem;
+}
+
+}
+
+@media(max-width: 800px) {
+
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media(max-width: 760px) {
+
+  #humburger{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  #navbar ul{
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    width: 45%;
+    height: 100%;
+    padding: 20px 8%;
+    padding-top: 60px;
+    box-sizing: border-box;
+    background: var(--main-color);
+    transition: .3s;
+  }
+
+  #closeMenu{
+    display: flex;
+  }
+
+  #navul.activated{
+    right: 0%;
+  }
+
+  #navbar ul li{
+    margin:12px 0;
+  }
+
+  #navbar ul li a{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  #navbar ul span{
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-size: 40px;
+  }
+  .hero-section form{
+    flex-direction: column ;
+    align-items: stretch;
+  }
+
+  .hero-section form input,
+  .hero-section form div{
+    width: 90%;
+    margin: 0 0 12px 0;
+  }
+
+  .hero-section form button{
+    width: 100%;
+  }
+
+  .steps-container{
+    flex-direction: column;
+
+  }
+
+  .steps-container .step{
+    width: 90%;
+  }
+
+  .doctor_sec .doctor_img{
+    width: 100%;
+  }
+
+  .doctorInfo{
+    transform: scale(0.6);
+    bottom: 0;
+    left: 0;
+  }
+
+  .doctor_txt h1{
+    font-size: 1.8rem;
+  }
+
+  .services_sec h1{
+    font-size: 1.8rem;
+
+  }
+
+  .serviceContainer .serviceBox{
+    width: 95%;
+  }
+
+  .testimonials h1{
+    font-size: 1.8rem;
+  }
+
+  .callToAction{
+    padding: 60px 7%;
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 560px) {
+  #navbar.standardBtn{
+    display: none;
+  }
+
+  .hero-section .heroImg{
+    width: 100%;
+  }
+
+  .hero-section .heroDiv h1{
+    font-size: 2rem;
+  }
+
+  .heroImg .absoluteImg .callImg{
+    width: 2.5rem;
+  }
+
+  .heroImg .absoluteImg .mesageImg{
+    width: 3rem;
+  }
+
+  .heroImg .absoluteImg.rateImg{
+    border-block-end-width: 4rem;
+    left: 15%;
+    bottom: 7%;
+  }
+
+  .heroImg .absoluteImg.videocallImg{
+    border-block-end-width: 2.5rem;
+    
+  }
+
+  .heroImg .absoluteImg.supportImg{
+    border-block-end-width: 5rem;
+    
+  } 
+}
