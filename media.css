@@ -198,27 +198,27 @@
     font-size: 2rem;
   }
 
-  .heroImg .absoluteImg .callImg{
+  .heroImg .absoluteImg.callImg{
     width: 2.5rem;
   }
 
-  .heroImg .absoluteImg .mesageImg{
+  .heroImg .absoluteImg.messageImg{
     width: 3rem;
   }
 
   .heroImg .absoluteImg.rateImg{
-    border-block-end-width: 4rem;
+    width: 4rem;
     left: 15%;
     bottom: 7%;
   }
 
   .heroImg .absoluteImg.videocallImg{
-    border-block-end-width: 2.5rem;
+    width: 2.5rem;
     
   }
 
   .heroImg .absoluteImg.supportImg{
-    border-block-end-width: 5rem;
+    width: 5rem;
     
   } 
 }
